@@ -1,9 +1,9 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-:root{
-  --gutterSize: 0.5rem;
+:root {
+  --gutterSize: 2.5rem;
 }
 .container {
   max-width: 1200px;
@@ -27,11 +27,12 @@
 .col-9,
 .col-10,
 .col-11,
-.col-12{
+.col-12 {
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: var(--gutterSize);
   padding-right: var(--gutterSize);
 }
-
 
 .col-1 {
   --size: calc(100% / 12 * 1);
