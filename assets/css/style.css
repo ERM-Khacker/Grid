@@ -1,0 +1,17 @@
+@import "./reset.css";
+@import "./grid.css";
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: larger;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p{
+  font-size: medium;
+
+}
